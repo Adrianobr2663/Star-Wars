@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars Census</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div style="display: flex; justify-content: center;">
+    <input type="text" id="search-box">
+    <button onclick="getData(null)">Buscar</button>
+  </div>
+
+  <div>
+    <lu id="planets-container">
+      Aguarde, acessando a API Externa...
+    </lu>
+  </div>
+
+  <div id="show-results" style="display: flex; justify-content: center;">
+  </div>
+
+  <div id="table-results">
+    
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
